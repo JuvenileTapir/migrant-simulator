@@ -10,7 +10,7 @@ except ImportError:
 
 class Item:
 
-    def __init__(self,ident,name="...",description='...'',display=True):
+    def __init__(self,ident,name="...",description='...',display=True):
         self.ident=ident
         self.name=name
         self.description=description
